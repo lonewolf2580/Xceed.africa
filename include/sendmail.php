@@ -25,7 +25,7 @@ parse_str($_POST['data'], $post_data);
 				. "To: $contact_email\n"
 				. "From: $user_email\n";
 		
-			if (!@mail($contact_email, $subj, $msg, $head)) {
+			if (!mail($contact_email, $subj, $msg, $head)) {
 				$response['error'] = 'Error send message!';
 			}
 		} else 
