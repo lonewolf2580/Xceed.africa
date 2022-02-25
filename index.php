@@ -892,7 +892,7 @@ if (isset($_GET['status'])) {
                 <div class="footer_wrap_inner widget_area_inner">
                     <div class="content_wrap">
                         <div class="columns_wrap">
-                            <aside class="column-1_3 widget widget_socials">
+                            <aside class="column-1_2 widget widget_socials">
                                 <div class="widget_inner">
                                     <div class="logo">
                                         <a href="index.html"><img alt="" class="logo_main" src="images/logo-footer.png"></a>
@@ -910,7 +910,7 @@ if (isset($_GET['status'])) {
                                     </div>
                                 </div>
                             </aside>
-                            <aside class="column-1_3 widget widget_recent_posts">
+                            <aside class="column-1_2 widget widget_recent_posts">
                                 <h5 class="widget_title">Recent Posts</h5>
                                 <article class="post_item with_thumb">
                                     <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
@@ -940,7 +940,7 @@ if (isset($_GET['status'])) {
                                     </div>
                                 </article>
                             </aside>
-                            <aside class="column-1_3 widget widget_text">
+                            <!-- <aside class="column-1_3 widget widget_text">
                                 <h5 class="widget_title">Contact Form</h5>
                                 <div class="textwidget">
                                     <div class="sc_form_wrap">
@@ -965,7 +965,7 @@ if (isset($_GET['status'])) {
                                         </div>
                                     </div>
                                 </div>
-                            </aside>
+                            </aside> -->
                         </div>
                     </div>
                 </div>
