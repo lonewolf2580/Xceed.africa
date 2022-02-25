@@ -18,7 +18,7 @@ extract($_POST);
 			
 		if (trim($contact_email) != '') {
 			$subj = 'Message from Exceed Africa';
-			$msg = $subj." \r\nName: $user_name \r\nE-mail: $user_email \r\nPhone: $phone \r\nSubject: $user_subject \r\nMessage: $user_msg";
+			$msg = $subj." \r\nName: $user_name \r\n <br>E-mail: $user_email \r\n <br>Phone: $phone \r\n <br>Subject: $user_subject \r\n <br>Message: $user_msg";
 		
 			$head = "Content-Type: text/plain; charset=\"utf-8\"\n"
 				. "X-Mailer: PHP/" . phpversion() . "\n"

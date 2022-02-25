@@ -868,7 +868,7 @@ if (isset($_GET['status'])) {
                 </div>
             </div><!-- </.page_content_wrap> -->
             <footer class="footer_area_top_wrap scheme_dark">
-                <div class="footer_wrap_inner">
+                <!-- <div class="footer_wrap_inner">
                     <div class="columns_wrap no_margins custom_columns_1">
                         <div class="column-1_2">
                             <div class="sc_googlemap" data-style="dark" data-zoom="12" id="sc_googlemap_1">
@@ -886,7 +886,7 @@ if (isset($_GET['status'])) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </footer><!-- /.footer_area_wrap -->
             <footer class="footer_wrap widget_area scheme_dark">
                 <div class="footer_wrap_inner widget_area_inner">
