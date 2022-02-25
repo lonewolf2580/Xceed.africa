@@ -1,7 +1,26 @@
+<?php
+if (isset($_GET['status'])) {
+    switch ($_GET['status']) {
+        case 'success':
+            echo "<script>alert('Sent! You will get a feedback as soon as possible')</script>";
+            break;
+        
+        case 'fail':
+            echo "<script>alert('Failed! Try Again')</script>";
+            break;
+        
+        default:
+            # code...
+            break;
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html class="scheme_original" lang="en-US">
 <head>
-    <title>Invetex &#8211; Corporate Template</title>
+    <title>Xceed Africa</title>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <meta content="telephone=no" name="format-detection">
@@ -654,12 +673,12 @@
                 </div>
                 <div class="sc_section custom_bg_1">
                     <div class="columns_wrap sc_columns no_margins" data-equal-height=".sc_column_item">
-                        <div class="column-1_2 sc_column_item">
+                        <!-- <div class="column-1_2 sc_column_item">
                             <div class="sc_column_item_inner" id="contact_form">
                                 <div class="sc_empty_space" data-height="8em"></div>
                             </div>
-                        </div>
-                        <div class="column-1_2 sc_column_item">
+                        </div> -->
+                        <div class="column-1 sc_column_item">
                             <div class="sc_empty_space" data-height="1em"></div>
                             <div class="sc_form_wrap" id="contact_us">
                                 <div class="sc_form sc_form_style_form_3 margin_top_huge margin_right_small margin_bottom_huge margin_left_medium">
@@ -695,7 +714,7 @@
                                                 <textarea aria-required="true" class="sc_form_message" name="message" placeholder="Message"></textarea>
                                             </div>
                                             <div class="sc_form_item sc_form_button">
-                                                <button class="sc_button sc_button_style_filled sc_button_size_medium sc_button_iconed icon-paper-plane-light">Send Request</button>
+                                                <button type="submit" class="sc_button sc_button_style_filled sc_button_size_medium sc_button_iconed icon-paper-plane-light">Send Request</button>
                                             </div>
                                             <div class="result sc_infobox"></div>
                                         </form>
@@ -990,6 +1009,21 @@
         </div><!-- /.page_wrap -->
     </div><!-- /.body_wrap -->
     <div class="popup_wrap_bg"></div><a class="scroll_to_top icon-up" href="#" title="Scroll to top"></a> 
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/6218a225a34c245641282290/1fso3ios4';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
     <script src='js/vendor/jquery.js' type='text/javascript'></script> 
     <script src='js/vendor/jquery-migrate.min.js' type='text/javascript'></script>
 	<script src='js/vendor/essgrid/jquery.themepunch.tools.min.js' type='text/javascript'></script> 
@@ -1008,7 +1042,7 @@
     <script src='js/custom/_googlemap.js' type='text/javascript'></script> 
     <script src='js/custom/template.init.js' type='text/javascript'></script> 
     <script src='js/vendor/mediaelement/mediaelement-and-player.min.js' type='text/javascript'></script> 
-    <script src='js/custom/_shortcodes.js' type='text/javascript'></script> 
+    <!-- <script src='js/custom/_shortcodes.js' type='text/javascript'></script>  -->
     <script src='js/custom/_messages.js' type='text/javascript'></script> 
     <script src='js/vendor/magnific-popup/jquery.magnific-popup.min.js' type='text/javascript'></script> 
     <script src='js/vendor/swiper/swiper.js' type='text/javascript'></script> 

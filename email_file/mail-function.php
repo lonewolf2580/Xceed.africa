@@ -15,18 +15,18 @@ try {
     //Server settings
     //$mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'auxbitfund.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'xceed.africa';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'support@auxbitfund.com';                 // SMTP username
-    $mail->Password = 'C?ZMw&Bfbj01';                           // SMTP password
+    $mail->Username = 'babajide@xceed.africa';                 // SMTP username
+    $mail->Password = 'Babajide@123#u';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                   // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('support@auxbitfund.com', 'Auxbitfund Support');
+    $mail->setFrom('babajide@xceed.africa', 'Intel from Exceed');
     $mail->addAddress($to, $name);     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo('support@auxbitfund.com', 'No Reply');
+    $mail->addReplyTo('babajide@xceed.africa', 'No Reply');
     //$mail->addCC('cc@example.com'); 
     //$mail->addBCC('email@domain.com', '');
 
