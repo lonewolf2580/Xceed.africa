@@ -15,6 +15,10 @@ if (isset($_GET['status'])) {
     }
 }
 
+$facebook = "https://www.facebook.com/Xceed.Africa/";
+$twitter = "https://twitter.com/XceedAfrica";
+$instagram = "https://www.instagram.com/xceed.africa/";
+$linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=true";
 
 ?>
 <!DOCTYPE html>
@@ -112,16 +116,16 @@ if (isset($_GET['status'])) {
                                 <div class="top_panel_top_socials top_panel_el">
                                     <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
                                         <div class="sc_socials_item">
-                                            <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
+                                            <a class="social_icons social_facebook" href="<?= $facebook; ?>" target="_blank"><span class="icon-facebook"></span></a>
                                         </div>
                                         <div class="sc_socials_item">
-                                            <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
+                                            <a class="social_icons social_twitter" href="<?= $twitter; ?>" target="_blank"><span class="icon-twitter"></span></a>
                                         </div>
                                         <div class="sc_socials_item">
-                                            <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
+                                            <a class="" href="<?= $instagram; ?>" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/120px-Instagram_simple_icon.svg.png" alt=""></a>
                                         </div>
                                         <div class="sc_socials_item">
-                                            <a class="social_icons social_linkedin" href="#" target="_blank"><span class="icon-linkedin"></span></a>
+                                            <a class="social_icons social_linkedin" href="<?= $linkedin; ?>" target="_blank"><span class="icon-linkedin"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -991,16 +995,17 @@ if (isset($_GET['status'])) {
                     <div class="content_wrap">
                         <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
                             <div class="sc_socials_item">
-                                <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
+                                <a class="social_icons social_facebook" href="<?= $facebook; ?>" target="_blank"><span class="icon-facebook"></span></a>
+                            </div>
+                            
+                            <div class="sc_socials_item">
+                                <a class="social_icons social_twitter" href="<?= $twitter; ?>" target="_blank"><span class="icon-twitter"></span></a>
                             </div>
                             <div class="sc_socials_item">
-                                <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
+                                <a class="" href="<?= $instagram; ?>" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/120px-Instagram_icon.png" alt=""></a>
                             </div>
                             <div class="sc_socials_item">
-                                <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
-                            </div>
-                            <div class="sc_socials_item">
-                                <a class="social_icons social_linkedin" href="#" target="_blank"><span class="icon-linkedin"></span></a>
+                                <a class="social_icons social_linkedin" href="<?= $linkedin; ?>" target="_blank"><span class="icon-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
