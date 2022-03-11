@@ -45,29 +45,29 @@
                             <aside class="column-1_2 widget widget_recent_posts">
                                 <h5 class="widget_title">Recent Posts</h5>
                                 <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
+                                    <div class="post_thumb"><img alt="" src="images/a1.png"></div>
                                     <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Broker-dealer owner indicated in $17 million dump scheme</a></h6>
+                                        <h6 class="post_title"><a href="blog.php?id=1">Africa’s Lateness To The AI Race</a></h6>
                                         <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 30, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">2 Comments</span></a></span>
+                                            <span class="post_info_item"><a class="post_info_date" href="blog.php?id=1">March 11, 2022</a></span>
                                         </div>
                                     </div>
                                 </article>
                                 <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
+                                    <div class="post_thumb"><img alt="" src="images/a2.png"></div>
                                     <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Why buying a big house is a bad investment</a></h6>
+                                        <h6 class="post_title"><a href="blog.php?id=2">Criminal Use Cases Of NFTs</a></h6>
                                         <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 29, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
+                                            <span class="post_info_item"><a class="post_info_date" href="blog.php?id=2">March 11, 2022</a></span> 
                                         </div>
                                     </div>
                                 </article>
                                 <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
+                                    <div class="post_thumb"><img alt="" src="images/a3.png"></div>
                                     <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Credit Suisse CEO focuses on wealth management</a></h6>
+                                        <h6 class="post_title"><a href="blog.php?id=3">Understanding The Technicality Of Mining Cryptocurrency</a></h6>
                                         <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 28, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
+                                            <span class="post_info_item"><a class="post_info_date" href="blog.php?id=3">March 11, 2022</a></span>
                                         </div>
                                     </div>
                                 </article>
