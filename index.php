@@ -1,139 +1,6 @@
 <?php
-if (isset($_GET['status'])) {
-    switch ($_GET['status']) {
-        case 'success':
-            echo "<script>alert('Sent! You will get a feedback as soon as possible')</script>";
-            break;
-        
-        case 'fail':
-            echo "<script>alert('Failed! Try Again')</script>";
-            break;
-        
-        default:
-            # code...
-            break;
-    }
-}
-
-$facebook = "https://www.facebook.com/Xceed.Africa/";
-$twitter = "https://twitter.com/XceedAfrica";
-$instagram = "https://www.instagram.com/xceed.africa/";
-$linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=true";
-
+require 'header.php';
 ?>
-<!DOCTYPE html>
-<html class="scheme_original" lang="en-US">
-<head>
-    <title>Xceed Africa</title>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <meta content="telephone=no" name="format-detection">
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic%7CLora:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic&#038;subset=latin,latin-ext&#038;" media="all" property="stylesheet" rel="stylesheet" type="text/css">
-    <link href='css/fontello/css/fontello.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/instagram/sb-instagram.min.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/essgrid/ess-grid.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/revslider/rev-slider.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/woocommerce/woocommerce.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/style.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/colors.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/woocommerce/woocommerce-layout.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/woocommerce/plugin.woocommerce.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/animation.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/shortcodes.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/messages.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/magnific-popup/magnific-popup.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='js/vendor/swiper/swiper.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href='css/responsive.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href="images/favi.png" rel="icon" sizes="192x192">
-</head>
-<body class="body_style_wide body_filled scheme_original top_panel_show top_panel_over sidebar_hide sidebar_outer_show sidebar_outer_yes top_panel_fixed">
-    <div id="page_preloader"></div>
-    <div class="body_wrap">
-        <div class="page_wrap">
-            <header class="top_panel_wrap top_panel_style_3 scheme_original">
-                <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_over">
-                    <div class="top_panel_top">
-                        <div class="content_wrap">
-                            <div class="top_panel_top_contact_area icon-location-light">
-                                254 Street Avenue, Los Angeles, LA 2415 US.
-                            </div>
-                            <div class="top_panel_top_open_hours icon-clock-light">
-                                Mon - Fri : 09:00 - 17:00
-                            </div>
-                            <div class="top_panel_top_ophone icon-call-out">
-                                8 800 256 35 87
-                            </div>
-                            <div class="top_panel_top_user_area cart_show">
-                                <div class="menu_pushy_wrap">
-                                    <a class="menu_pushy_button icon-1460034782_menu2" href="#"></a>
-                                </div>
-                                <ul class="menu_user_nav" id="menu_user">
-                                    <li class="menu_user_register_login">
-                                        <a class="popup_link popup_login_link icon-key-light" href="#">Apply</a> <a> </a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="top_panel_middle">
-                        <div class="content_wrap">
-                            <div class="contact_logo">
-                                <div class="logo">
-                                    <a href="index.html"><img alt="" class="logo_main" src="images/logo_dark.png"> <img alt="" class="logo_fixed" src="images/logo.png"></a>
-                                </div>
-                            </div>
-                            <div class="menu_main_wrap">
-                                <nav class="menu_main_nav_area menu_hover_fade">
-                                    <ul class="menu_main_nav" id="menu_main">
-                                        <!-- <li class="menu-item current-menu-ancestor current-menu-parent">
-                                            <a href="index.html"><span>Home</span></a>
-                                        </li> -->
-                                        <li class="menu-item">
-                                            <a href="#our-team"><span>Team</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#about-us"><span>About Us</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#our-services"><span>Services</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#company"><span>Company</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#all-posts"><span>Blog</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#our_portfolio"><span>Portfolio</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#contact_us"><span>Contact</span></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                
-                                <div class="top_panel_top_socials top_panel_el">
-                                    <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
-                                        <div class="sc_socials_item">
-                                            <a class="social_icons social_facebook" href="<?= $facebook; ?>" target="_blank"><span class="icon-facebook"></span></a>
-                                        </div>
-                                        <div class="sc_socials_item">
-                                            <a class="social_icons social_twitter" href="<?= $twitter; ?>" target="_blank"><span class="icon-twitter"></span></a>
-                                        </div>
-                                        <div class="sc_socials_item">
-                                            <a class="" href="<?= $instagram; ?>" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/120px-Instagram_simple_icon.svg.png" alt=""></a>
-                                        </div>
-                                        <div class="sc_socials_item">
-                                            <a class="social_icons social_linkedin" href="<?= $linkedin; ?>" target="_blank"><span class="icon-linkedin"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
             <nav class="menu_pushy_nav_area pushy pushy-left scheme_dark">
                 <div class="pushy_inner">
                     <a class="close-pushy" href="#"></a>
@@ -783,8 +650,7 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                             <div class="sc_section_inner">
                                 <h2 class="sc_section_title sc_item_title" id="all-posts">Our Blog Posts</h2>
                                 <div class="sc_section_descr sc_item_descr">
-                                    Perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,<br>
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore.
+                                    Some Interesting Topics to keep you Informed.
                                 </div>
                                 <div class="sc_section_content_wrap">
                                     <div class="widget_area sc_recent_news_wrap">
@@ -794,14 +660,8 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                                                     <div class="post_featured">
                                                         <div class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_controls sc_slider_pagination" data-interval="9920" data-old-height="334" data-old-width="370">
                                                             <div class="slides swiper-wrapper" data-style="height:334px;">
-                                                                <div class="swiper-slide" data-style="background-image:url(images/370x334.jpg);width:370px;height:334px;">
-                                                                    <a href="single-post.html"></a>
-                                                                </div>
-                                                                <div class="swiper-slide" data-style="background-image:url(images/370x334.jpg);width:370px;height:334px;">
-                                                                    <a href="single-post.html"></a>
-                                                                </div>
-                                                                <div class="swiper-slide" data-style="background-image:url(images/370x334.jpg);width:370px;height:334px;">
-                                                                    <a href="single-post.html"></a>
+                                                                <div class="swiper-slide" data-style="background-image:url(images/a1.png);width:370px;height:334px;">
+                                                                    <a href="blog.php?id=1"></a>
                                                                 </div>
                                                             </div>
                                                             <div class="sc_slider_controls_wrap">
@@ -812,47 +672,47 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                                                     </div>
                                                     <div class="post_des">
                                                         <div class="cat_post_info">
-                                                            <span class="post_categories"><a class="category_link" href="all-posts.html">Money</a></span>
+                                                            <span class="post_categories"><a class="category_link" href="blog.php?id=1">Tech</a></span>
                                                         </div>
-                                                        <h5 class="post_title"><a href="single-post.html" rel="">Broker-dealer owner indicated in $17 million dump scheme</a></h5>
+                                                        <h5 class="post_title"><a href="blog.php?id=1" rel="">Africa’s Lateness To The AI Race</a></h5>
                                                         <div class="post_info">
-                                                            <span class="post_meta_date">April 30, 2016</span> <span class="post_meta_comments icon-comment-light">2 Comments</span>
+                                                            <span class="post_meta_date">March 11, 2022</span>
                                                         </div>
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p><a class="readmore" href="single-post.html">Read More</a>
+                                                        <p>It’s safe to say we are living in the future already and Artificial Intelligence has become so integral in society today and playing a much more important role in society presently...</p><a class="readmore" href="blog.php?id=1">Read More</a>
                                                     </div>
                                                 </article>
                                                 <article class="post_item post_layout_news-announce post_format_standard post_size_medium">
                                                     <div class="post_featured">
                                                         <div class="post_thumb">
-                                                            <a class="hover_icon hover_icon_link" href="single-post.html"><img alt="" src="images/370x334.jpg"></a>
+                                                            <a class="hover_icon hover_icon_link" href="blog.php?id=2"><img alt="" src="images/a2.png"></a>
                                                         </div>
                                                     </div>
                                                     <div class="post_des">
                                                         <div class="cat_post_info">
-                                                            <span class="post_categories"><a class="category_link" href="all-posts.html">Money</a></span>
+                                                            <span class="post_categories"><a class="category_link" href="blog.php?id=2">Money</a></span>
                                                         </div>
-                                                        <h5 class="post_title"><a href="single-post.html" rel="">Credit Suisse CEO focuses on wealth management</a></h5>
+                                                        <h5 class="post_title"><a href="blog.php?id=2" rel="">Criminal Use Cases Of NFTs</a></h5>
                                                         <div class="post_info">
-                                                            <span class="post_meta_date">April 28, 2016</span> <span class="post_meta_comments icon-comment-light">0 Comments</span>
+                                                            <span class="post_meta_date">March 11, 2022</span> 
                                                         </div>
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p><a class="readmore" href="single-post.html">Read More</a>
+                                                        <p>As the digital art NFT industry continues to grow and gain popularity there also exists a lingering concern of NFTs being...</p><a class="readmore" href="blog.php?id=2">Read More</a>
                                                     </div>
                                                 </article>
                                                 <article class="post_item post_layout_news-announce post_format_standard post_size_big right">
                                                     <div class="post_featured">
                                                         <div class="post_thumb">
-                                                            <a class="hover_icon hover_icon_link" href="single-post.html"><img alt="" src="images/370x334.jpg"></a>
+                                                            <a class="hover_icon hover_icon_link" href="blog.php?id=3"><img alt="" src="images/a3.png"></a>
                                                         </div>
                                                     </div>
                                                     <div class="post_des">
                                                         <div class="cat_post_info">
                                                             <span class="post_categories"><a class="category_link" href="all-posts.html">Business</a></span>
                                                         </div>
-                                                        <h5 class="post_title"><a href="single-post.html" rel="">Money Market Rates Finding the Best Accounts in 2016</a></h5>
+                                                        <h5 class="post_title"><a href="blog.php?id=3" rel="">Understanding The Technicality Of Mining Cryptocurrency</a></h5>
                                                         <div class="post_info">
-                                                            <span class="post_meta_date">April 26, 2016</span> <span class="post_meta_comments icon-comment-light">4 Comments</span>
+                                                            <span class="post_meta_date">March 11, 2022</span> 
                                                         </div>
-                                                        <p>Perspiciatis unde omnis iste natus sit volupt tem accusantium doloremque...</p><a class="readmore" href="single-post.html">Read More</a>
+                                                        <p>To be able to effectively mine cryptocurrency there are some supporting and infrastructural technologies that make it possible to mine cryptocurrency and they can be defined as...</p><a class="readmore" href="blog.php?id=3">Read More</a>
                                                     </div>
                                                 </article>
                                             </div>
@@ -871,186 +731,6 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                     </div>
                 </div>
             </div><!-- </.page_content_wrap> -->
-            <footer class="footer_area_top_wrap scheme_dark">
-                <!-- <div class="footer_wrap_inner">
-                    <div class="columns_wrap no_margins custom_columns_1">
-                        <div class="column-1_2">
-                            <div class="sc_googlemap" data-style="dark" data-zoom="12" id="sc_googlemap_1">
-                                <div class="sc_googlemap_marker" data-address="1, Central Road, Chicago" data-description="1, Central Road, Chicago" data-latlng="" data-point="images/map_pointer.png" data-title="1, Central Road, Chicago"></div>
-                            </div>
-                        </div>
-                        <div class="column-1_2">
-                            <div class="sc_emailer sc_emailer_opened style_line margin_top_medium margin_bottom_small margin_left_small margin_right_small">
-                                <div class="lable">
-                                    Newsletter
-                                </div>
-                                <form class="sc_emailer_form">
-                                    <input class="sc_emailer_input" name="email" placeholder="Enter Your Email" type="text" value=""> <a class="sc_emailer_button" href="#" title="">Subscribe</a>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </footer><!-- /.footer_area_wrap -->
-            <footer class="footer_wrap widget_area scheme_dark">
-                <div class="footer_wrap_inner widget_area_inner">
-                    <div class="content_wrap">
-                        <div class="columns_wrap">
-                            <aside class="column-1_2 widget widget_socials">
-                                <div class="widget_inner">
-                                    <div class="logo">
-                                        <a href="index.html"><img alt="" class="logo_main" src="images/logo-footer.png"></a>
-                                    </div>
-                                    <div class="logo_descr">
-                                        Perspiciatis unde omnis iste natus sit voluptat<br>
-                                        em accusantium doloremque laudantium<br>
-                                        totam rem aperiam, eaque ipsa quae.<br>
-                                        <br>
-                                        <ul class="sc_list sc_list_style_iconed custom_cl_1">
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-location-light custom_cl_2"></span>Los Angeles, Street Avenue, La 2540</li>
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: 800-123-4567</li>
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: invetex@yoursite.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </aside>
-                            <aside class="column-1_2 widget widget_recent_posts">
-                                <h5 class="widget_title">Recent Posts</h5>
-                                <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Broker-dealer owner indicated in $17 million dump scheme</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 30, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">2 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Why buying a big house is a bad investment</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 29, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="post_item with_thumb">
-                                    <div class="post_thumb"><img alt="" src="images/75x75.jpg"></div>
-                                    <div class="post_content">
-                                        <h6 class="post_title"><a href="single-post.html">Credit Suisse CEO focuses on wealth management</a></h6>
-                                        <div class="post_info">
-                                            <span class="post_info_item"><a class="post_info_date" href="single-post.html">April 28, 2016</a></span> <span class="post_info_item post_info_counters"><a class="post_counters_item icon-comment-light" href="single-post.html"><span class="post_counters_number">0 Comments</span></a></span>
-                                        </div>
-                                    </div>
-                                </article>
-                            </aside>
-                            <!-- <aside class="column-1_3 widget widget_text">
-                                <h5 class="widget_title">Contact Form</h5>
-                                <div class="textwidget">
-                                    <div class="sc_form_wrap">
-                                        <div class="sc_form sc_form_style_form_1" id="sc_form_1">
-                                            <form action="include/sendmail.php" class="sc_input_hover_default" data-formtype="form_1" method="post">
-                                                <div class="sc_form_info">
-                                                    <div class="sc_form_item sc_form_field">
-                                                        <input aria-required="true" class="sc_form_username" name="username" placeholder="Name *" type="text">
-                                                    </div>
-                                                    <div class="sc_form_item sc_form_field">
-                                                        <input aria-required="true" class="sc_form_email" name="email" placeholder="E-mail *" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="sc_form_item sc_form_message">
-                                                    <textarea aria-required="true" class="sc_form_message" name="message" placeholder="Message"></textarea>
-                                                </div>
-                                                <div class="sc_form_item sc_form_button">
-                                                    <button class="sc_button sc_button_style_filled sc_button_size_medium sc_button_iconed icon-mail-light">Send Message</button>
-                                                </div>
-                                                <div class="result sc_infobox"></div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </aside> -->
-                        </div>
-                    </div>
-                </div>
-            </footer><!-- /.footer_wrap -->
-            <footer class="footer_area_wrap scheme_dark">
-                <div class="footer_wrap_inner">
-                    <div class="content_wrap">
-                        <div class="sc_line sc_line_position_center_center sc_line_style_solid margin_top_null margin_bottom_small"></div>
-                        <div class="follow_us">
-                            Follow Us on @Instagram
-                        </div>
-                        <div class="sbi sbi_disable_mobile sbi_col_9" data-cols="9" data-id="3273597493" data-num="9" data-options='{&quot;sortby&quot;: &quot;none&quot;, &quot;headercolor&quot;: &quot;&quot;, &quot;imagepadding&quot;: &quot;0&quot;}' data-res="thumb" id="sb_instagram">
-                            <div id="sbi_images">
-                                <div class="sbi_loader"></div>
-                            </div>
-                            <div id="sbi_load"></div>
-                        </div>
-                    </div>
-                </div>
-            </footer><!-- /.footer_area_wrap -->
-            <div class="copyright_wrap copyright_style_soc scheme_dark">
-                <div class="copyright_wrap_inner">
-                    <div class="content_wrap">
-                        <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
-                            <div class="sc_socials_item">
-                                <a class="social_icons social_facebook" href="<?= $facebook; ?>" target="_blank"><span class="icon-facebook"></span></a>
-                            </div>
-                            
-                            <div class="sc_socials_item">
-                                <a class="social_icons social_twitter" href="<?= $twitter; ?>" target="_blank"><span class="icon-twitter"></span></a>
-                            </div>
-                            <div class="sc_socials_item">
-                                <a class="" href="<?= $instagram; ?>" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/120px-Instagram_icon.png" alt=""></a>
-                            </div>
-                            <div class="sc_socials_item">
-                                <a class="social_icons social_linkedin" href="<?= $linkedin; ?>" target="_blank"><span class="icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- /.page_wrap -->
-    </div><!-- /.body_wrap -->
-    <div class="popup_wrap_bg"></div><a class="scroll_to_top icon-up" href="#" title="Scroll to top"></a> 
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/6218a225a34c245641282290/1fso3ios4';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
-
-    <script src='js/vendor/jquery.js' type='text/javascript'></script> 
-    <script src='js/vendor/jquery-migrate.min.js' type='text/javascript'></script>
-	<script src='js/vendor/essgrid/jquery.themepunch.tools.min.js' type='text/javascript'></script> 
-    <script src='js/vendor/essgrid/jquery.themepunch.essential.min.js' type='text/javascript'></script> 
-    <script src='js/vendor/revslider/jquery.themepunch.revolution.min.js' type='text/javascript'></script> 
-    <script src="js/vendor/revslider/revolution.extension.slideanims.min.js" type="text/javascript"></script> 
-    <script src="js/vendor/revslider/revolution.extension.layeranimation.min.js" type="text/javascript"></script> 
-    <script src="js/vendor/revslider/revolution.extension.navigation.min.js" type="text/javascript"></script> 
-    <script src='js/vendor/instagram/sb-instagram.min.js' type='text/javascript'></script> 
-    <script src="js/custom/custom.js" type="text/javascript"></script> 
-    <script src='js/vendor/superfish.js' type='text/javascript'></script> 
-    <script src='js/custom/_min.js' type='text/javascript'></script> 
-    <script src='js/custom/_utils.js' type='text/javascript'></script> 
-    <script src='js/custom/_init.js' type='text/javascript'></script> 
-    <script src='js/custom/_debug.js' type='text/javascript'></script> 
-    <script src='js/custom/_googlemap.js' type='text/javascript'></script> 
-    <script src='js/custom/template.init.js' type='text/javascript'></script> 
-    <script src='js/vendor/mediaelement/mediaelement-and-player.min.js' type='text/javascript'></script> 
-    <script src='js/custom/_shortcodes.js' type='text/javascript'></script> 
-    <script src='js/custom/_messages.js' type='text/javascript'></script> 
-    <script src='js/vendor/magnific-popup/jquery.magnific-popup.min.js' type='text/javascript'></script> 
-    <script src='js/vendor/swiper/swiper.js' type='text/javascript'></script> 
-    <script src='http://maps.google.com/maps/api/js?key=' type='text/javascript'></script>
-</body>
-</html>
+            <?php
+            require 'footer.php';
+            ?>
