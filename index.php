@@ -569,13 +569,7 @@ require 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="sc_section margin_top_small margin_bottom_huge aligncenter">
-                            <div class="sc_section_inner">
-                                <div class="sc_section_content_wrap">
-                                    <a class="sc_button sc_button_style_border sc_button_size_medium margin_bottom_small" href="all-posts.html">View More Posts</a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div><!-- </.page_content_wrap> -->
