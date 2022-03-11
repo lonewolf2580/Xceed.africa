@@ -1,114 +1,7 @@
 <?php
 require 'header.php';
 ?>
-            <nav class="menu_pushy_nav_area pushy pushy-left scheme_dark">
-                <div class="pushy_inner">
-                    <a class="close-pushy" href="#"></a>
-                    <div class="sidebar_outer widget_area scheme_dark">
-                        <div class="sidebar_outer_inner widget_area_inner">
-                            <div class="sidebar_outer_widgets">
-                                <aside class="widget widget_socials">
-                                    <h5 class="widget_title">About Us</h5>
-                                    <div class="widget_inner">
-                                        <div class="logo_descr">
-                                            We are a team of industry experts with many years of experience in venture capital, technology startups, artificial intelligence.<br>
-                                            <br>
-                                            <ul class="sc_list sc_list_style_iconed custom_cl_1">
-                                                <li class="sc_list_item"><span class="sc_list_icon icon-location-light custom_cl_2"></span>Los Angeles, Street Avenue, La 2540</li>
-                                                <li class="sc_list_ite"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: 800-123-4567</li>
-                                                <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: invetex@yoursite.com</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </aside>
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="site-overlay"></div>
-            <div class="header_mobile header_mobile_style_3">
-                <div class="content_wrap">
-                    <div class="menu_button icon-menu"></div>
-                    <div class="logo">
-                        <a href="index.html"><img alt="" class="logo_main" src="images/logo_dark.png"></a>
-                    </div>
-                    
-                </div>
-                <div class="side_wrap">
-                    <div class="close">
-                        Close
-                    </div>
-                    <div class="panel_top">
-                        <nav class="menu_main_nav_area">
-                            <ul class="menu_main_nav" id="menu_mobile">
-                                <!-- <li class="menu-item current-menu-ancestor current-menu-parent">
-                                    <a href="index.html"><span>Home</span></a>
-                                </li> -->
-                                <li class="menu-item">
-                                    <a href="#our-team"><span>Team</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#about-us"><span>About Us</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#our-services"><span>Services</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#company"><span>Company</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#all-posts"><span>Blog</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#our_portfolio"><span>Portfolio</span></a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#contact_us"><span>Contact</span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                        
-                        <div class="login">
-                            <a class="popup_link popup_register_link icon-pencil" href="#popup_registration">Apply</a>
-                        </div>
-                    </div>
-                    <!-- <div class="panel_middle">
-                        <div class="contact_field contact_phone">
-                            <span class="contact_icon icon-call-out"></span> <span class="contact_label contact_phone">8 800 256 35 87</span>
-                        </div>
-                        <div class="top_panel_top_open_hours icon-clock-light">
-                            Mon - Fri : 09:00 - 17:00
-                        </div>
-                        <div class="top_panel_top_user_area cart_hide">
-                            <div class="menu_pushy_wrap">
-                                <a class="menu_pushy_button icon-1460034782_menu2" href="#"></a>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="panel_bottom">
-                        <div class="contact_socials">
-                            <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
-                                <div class="sc_socials_item">
-                                    <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a class="social_icons social_linkedin" href="#" target="_blank"><span class="icon-linkedin"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-                <div class="mask"></div>
-            </div>
+            
             <section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_home-1">
                 <div class="rev_slider_wrapper fullscreen-container" id="rev_slider_1_1_wrapper">
                     <div class="rev_slider fullscreenbanner" data-version="5.2.6" id="rev_slider_1_1">
@@ -122,7 +15,7 @@ require 'header.php';
                                     Xceed Africa provides strategic funding to early-stage African startups solving hard problems <br> and building high growth businesses in $Billion markets.
                                 </div>
                                 <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-1-layer-3">
-                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#about-us">Read more</a>&nbsp;&nbsp;
+                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: #138DB8;">Apply</a>&nbsp;&nbsp;
                                     <!-- <a class="sc_button sc_button_style_filled2 sc_button_size_medium light_color" href="#">Purchase</a> -->
                                 </div>
                             </li>
@@ -135,7 +28,7 @@ require 'header.php';
                                     Xceed Africa facilitates the digital transformation of African businesses and helps them <br> adopt digital technology to improve efficiency, value, and innovation.
                                 </div>
                                 <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-2-layer-3">
-                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="#about-us">Read more</a>
+                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $secondarycolor; ?>;">Apply</a>
                                 </div>
                             </li>
                             
@@ -150,7 +43,7 @@ require 'header.php';
                         <div class="sc_empty_space" data-height="2em"></div>
                         <div class="sc_services_wrap">
                             <div class="sc_services sc_services_style_services-4 sc_services_type_icons_img margin_top_huge margin_bottom_huge">
-                                <h2 class="sc_services_title sc_item_title" id="about-us">Why We Are Different...</h2>
+                                <h2 class="sc_services_title sc_item_title" id="about-us" style="color: <?= $secondarycolor2; ?>;">Why We Are Different...</h2>
                                 <div class="sc_services_descr sc_item_descr">
                                     Businesses need just more than money which is why our investment and support approach is well-grounded <br>
                                     to help cater across all facets of the business.
@@ -162,7 +55,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_04.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Domain Transformation</a></h4>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Domain Transformation</a></h4>
                                                 <span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Introduce new technologies with the ability to redefine products and services and foster opportunities for non-traditional competitors</p>
@@ -177,7 +70,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_05.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Business Model Transformation</a></h4>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Business Model Transformation</a></h4>
                                                 <span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Reinventing and adding to their current model for success and achieving a renovation that leads to significant new opportunities for growth</p>
@@ -192,7 +85,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_06.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Cultural Transformation</a></h4><span class="sc_services_item_subtitle">Market-leading experience and services</span>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Cultural Transformation</a></h4><span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Aligning digital transformation efforts with organizational internal values and behaviors</p>
                                                 </div>
@@ -210,7 +103,7 @@ require 'header.php';
                         <div class="sc_empty_space" data-height="2em"></div>
                         <div class="sc_services_wrap">
                             <div class="sc_services sc_services_style_services-3 sc_services_type_images margin_top_huge margin_bottom_huge">
-                                <h2 class="sc_services_title sc_item_title" id="our_portfolio">OUR PORTFOLIO</h2>
+                                <h2 class="sc_services_title sc_item_title" id="our_portfolio" style="color: <?= $secondarycolor2; ?>;">OUR PORTFOLIO</h2>
                                 <div class="sc_services_descr sc_item_descr">
                                     Economic services provided by the finance industry, which encompasses a broad<br>
                                     range of businesses that manage money, including credit unions.
@@ -227,8 +120,8 @@ require 'header.php';
                                                 </div>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <span class="sc_services_item_subtitle">Edustripe</span>
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Education Management Application</a></h4>
+                                                <span class="sc_services_item_subtitle" style="color: <?= $primarycolor; ?>;">Edustripe</span>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html" style="color: <?= $secondarycolor2; ?>;">Education Management Application</a></h4>
                                                 <div class="sc_services_item_description">
                                                     <p>Pioneering education financing in Africa by providing a reliable platform for Parents to save school fees and access educational loans</p>
                                                 </div>
@@ -247,8 +140,8 @@ require 'header.php';
                                                 </div>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <span class="sc_services_item_subtitle">Dace</span>
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Logistics Hailing Application</a></h4>
+                                                <span class="sc_services_item_subtitle" style="color: <?= $primarycolor; ?>;">Dace</span>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html" style="color: <?= $secondarycolor2; ?>;">Logistics Hailing Application</a></h4>
                                                 <div class="sc_services_item_description">
                                                     <p>Connecting Individuals, Business Owners to Delivery companies and help fulfill delivery requests instantly</p>
                                                 </div>
@@ -267,9 +160,9 @@ require 'header.php';
                                                 </div>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <span class="sc_services_item_subtitle">Mobkilishi
+                                                <span class="sc_services_item_subtitle" style="color: <?= $primarycolor; ?>;">Mobkilishi
                                                 </span>
-                                                <h4 class="sc_services_item_title"><a href="single-service.html">Meat Processing E-Commerce Store</a></h4>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html" style="color: <?= $secondarycolor2; ?>;">Meat Processing E-Commerce Store</a></h4>
                                                 <div class="sc_services_item_description">
                                                     <p>Producing and marketing the finest and premium meat products</p>
                                                 </div>
@@ -366,7 +259,7 @@ require 'header.php';
                     </div>
                 </div>
                 <div class="sc_section custom_section_1">
-                    <h2 class="sc_title sc_title_regular text_align_center custom_cl_7 margin_top_medium margin_bottom_tiny-" id="our-services">WHAT WE DO
+                    <h2 class="sc_title sc_title_regular text_align_center custom_cl_7 margin_top_medium margin_bottom_tiny-" id="our-services" style="color: <?= $secondarycolor; ?>;">WHAT WE DO
                     </h2>
 <br>
                     <div class="columns_wrap no_margins custom_bg_1">
@@ -553,7 +446,7 @@ require 'header.php';
                             <div class="sc_empty_space" data-height="1em"></div>
                             <div class="sc_form_wrap" id="contact_us">
                                 <div class="sc_form sc_form_style_form_3 margin_top_huge margin_right_small margin_bottom_huge margin_left_medium">
-                                    <h2 class="sc_form_title sc_item_title">GET IN TOUCH WITH US (Contact Form)</h2>
+                                    <h2 class="sc_form_title sc_item_title" style="color: <?= $secondarycolor2; ?>;">GET IN TOUCH WITH US (Contact Form)</h2>
                                     <div class="sc_form_descr sc_item_descr">
                                         We will love to hear from you.
                                     </div>
@@ -585,7 +478,7 @@ require 'header.php';
                                                 <textarea aria-required="true" class="sc_form_message" name="message" placeholder="Message"></textarea>
                                             </div>
                                             <div class="sc_form_item sc_form_button">
-                                                <button type="submit" class="sc_button sc_button_style_filled sc_button_size_medium sc_button_iconed icon-paper-plane-light">Send Request</button>
+                                                <button type="submit" class="sc_button sc_button_style_filled sc_button_size_medium sc_button_iconed icon-paper-plane-light" style="background: <?= $secondarycolor; ?>;">Send Request</button>
                                             </div>
                                             <div class="result sc_infobox"></div>
                                         </form>
@@ -596,53 +489,8 @@ require 'header.php';
                         </div>
                     </div>
                 </div>
-                <div class="sc_section custom_bg_2">
-                    <div class="content_wrap">
-                        <div class="sc_empty_space" data-height="2.5em"></div>
-                        <div class="sc_clients_wrap">
-                            <div class="sc_clients sc_clients_style_clients-1 margin_top_huge margin_bottom_huge">
-                                <h2 class="sc_clients_title sc_item_title">Our Clients</h2>
-                                <div class="sc_clients_descr sc_item_descr">
-                                    Perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque<br>
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-                                </div>
-                                <div class="sc_columns columns_wrap">
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                    <div class="column-1_6 column_padding_bottom">
-                                        <div class="sc_clients_item">
-                                            <div class="sc_client_image"><img alt="" src="images/131x67.png"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- /.sc_clients -->
-                        </div><!-- /.sc_clients_wrap -->
-                        <div class="sc_empty_space" data-height="0.5em"></div>
-                    </div>
-                </div>
+                
+                
                 <div class="sc_section">
                     <div class="content_wrap">
                         <div class="sc_empty_space" data-height="2em"></div>

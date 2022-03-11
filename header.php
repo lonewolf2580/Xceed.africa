@@ -19,6 +19,14 @@ $facebook = "https://www.facebook.com/Xceed.Africa/";
 $twitter = "https://twitter.com/XceedAfrica";
 $instagram = "https://www.instagram.com/xceed.africa/";
 $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=true";
+$phone = "+33753047358";
+$address = "23 Rue Louis Jasseron, Lyon, France 69003";
+$email = "babajide@xceed.africa";
+$googleform = "#";
+$primarycolor = "#2B389D";
+$secondarycolor = "#138DB8";
+$secondarycolor2 = "#910F70";
+$secondarycolor3 = "#F0245C";
 
 ?>
 <!DOCTYPE html>
@@ -55,13 +63,13 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                     <div class="top_panel_top">
                         <div class="content_wrap">
                             <div class="top_panel_top_contact_area icon-location-light">
-                                254 Street Avenue, Los Angeles, LA 2415 US.
+                            <?= $address; ?>.
                             </div>
                             <div class="top_panel_top_open_hours icon-clock-light">
                                 Mon - Fri : 09:00 - 17:00
                             </div>
                             <div class="top_panel_top_ophone icon-call-out">
-                                8 800 256 35 87
+                                <a href="tel:<?= $phone; ?>" style="color:#fff;"><?= $phone; ?></a>
                             </div>
                             <div class="top_panel_top_user_area cart_show">
                                 <div class="menu_pushy_wrap">
@@ -69,7 +77,7 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                                 </div>
                                 <ul class="menu_user_nav" id="menu_user">
                                     <li class="menu_user_register_login">
-                                        <a class="popup_link popup_login_link icon-key-light" href="#">Apply</a> <a> </a>
+                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $secondarycolor; ?>;">Apply</a> <a> </a>
                                     </li>
                                     
                                 </ul>
@@ -134,3 +142,112 @@ $linkedin = "https://www.linkedin.com/company/xceed-africa/about/?viewAsMember=t
                     </div>
                 </div>
             </header>
+
+            <nav class="menu_pushy_nav_area pushy pushy-left scheme_dark">
+                <div class="pushy_inner">
+                    <a class="close-pushy" href="#"></a>
+                    <div class="sidebar_outer widget_area scheme_dark">
+                        <div class="sidebar_outer_inner widget_area_inner">
+                            <div class="sidebar_outer_widgets">
+                                <aside class="widget widget_socials">
+                                    <h5 class="widget_title">About Us</h5>
+                                    <div class="widget_inner">
+                                        <div class="logo_descr">
+                                            We are a team of industry experts with many years of experience in venture capital, technology startups, artificial intelligence.<br>
+                                            <br>
+                                            <ul class="sc_list sc_list_style_iconed custom_cl_1">
+                                                <li class="sc_list_item"><span class="sc_list_icon icon-location-light custom_cl_2"></span><?= $address; ?></li>
+                                                <li class="sc_list_ite"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: <?= $phone; ?></li>
+                                                <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: <?= $email; ?></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </aside>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="site-overlay"></div>
+            <div class="header_mobile header_mobile_style_3">
+                <div class="content_wrap">
+                    <div class="menu_button icon-menu"></div>
+                    <div class="logo">
+                        <a href="index.html"><img alt="" class="logo_main" src="images/logo_dark.png"></a>
+                    </div>
+                    
+                </div>
+                <div class="side_wrap">
+                    <div class="close">
+                        Close
+                    </div>
+                    <div class="panel_top">
+                        <nav class="menu_main_nav_area">
+                            <ul class="menu_main_nav" id="menu_mobile">
+                                <!-- <li class="menu-item current-menu-ancestor current-menu-parent">
+                                    <a href="index.html"><span>Home</span></a>
+                                </li> -->
+                                <li class="menu-item">
+                                    <a href="#our-team"><span>Team</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#about-us"><span>About Us</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#our-services"><span>Services</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#company"><span>Company</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#all-posts"><span>Blog</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#our_portfolio"><span>Portfolio</span></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#contact_us"><span>Contact</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                        <div class="login">
+                            <a class="popup_link popup_register_link icon-pencil" href="#popup_registration">Apply</a>
+                        </div>
+                    </div>
+                    <!-- <div class="panel_middle">
+                        <div class="contact_field contact_phone">
+                            <span class="contact_icon icon-call-out"></span> <span class="contact_label contact_phone">8 800 256 35 87</span>
+                        </div>
+                        <div class="top_panel_top_open_hours icon-clock-light">
+                            Mon - Fri : 09:00 - 17:00
+                        </div>
+                        <div class="top_panel_top_user_area cart_hide">
+                            <div class="menu_pushy_wrap">
+                                <a class="menu_pushy_button icon-1460034782_menu2" href="#"></a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="panel_bottom">
+                        <div class="contact_socials">
+                            <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
+                                <div class="sc_socials_item">
+                                    <a class="social_icons social_facebook" href="#" target="_blank"><span class="icon-facebook"></span></a>
+                                </div>
+                                <div class="sc_socials_item">
+                                    <a class="social_icons social_twitter" href="#" target="_blank"><span class="icon-twitter"></span></a>
+                                </div>
+                                <div class="sc_socials_item">
+                                    <a class="social_icons social_gplus" href="#" target="_blank"><span class="icon-gplus"></span></a>
+                                </div>
+                                <div class="sc_socials_item">
+                                    <a class="social_icons social_linkedin" href="#" target="_blank"><span class="icon-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="mask"></div>
+            </div>

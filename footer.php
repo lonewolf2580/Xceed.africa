@@ -30,14 +30,13 @@
                                         <a href="index.html"><img alt="" class="logo_main" src="images/logo-footer.png"></a>
                                     </div>
                                     <div class="logo_descr">
-                                        Perspiciatis unde omnis iste natus sit voluptat<br>
-                                        em accusantium doloremque laudantium<br>
-                                        totam rem aperiam, eaque ipsa quae.<br>
+                                        We are a team of industry experts with many years <br>of experience in venture capital, technology startups, <br>artificial intelligence
+                                        
                                         <br>
                                         <ul class="sc_list sc_list_style_iconed custom_cl_1">
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-location-light custom_cl_2"></span>Los Angeles, Street Avenue, La 2540</li>
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: 800-123-4567</li>
-                                            <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: invetex@yoursite.com</li>
+                                            <li class="sc_list_item"><span class="sc_list_icon icon-location-light custom_cl_2"></span><?= $address; ?></li>
+                                            <li class="sc_list_item"><span class="sc_list_icon icon-mobile-light custom_cl_2"></span>Phone: <a href="tel:<?= $phone; ?>"><?= $phone; ?></a></li>
+                                            <li class="sc_list_item"><span class="sc_list_icon icon-mail-light custom_cl_2"></span>Email: <?= $email; ?></li>
                                         </ul>
                                     </div>
                                 </div>
