@@ -43,7 +43,7 @@ require 'header.php';
                         <div class="sc_empty_space" data-height="2em"></div>
                         <div class="sc_services_wrap">
                             <div class="sc_services sc_services_style_services-4 sc_services_type_icons_img margin_top_huge margin_bottom_huge">
-                                <h2 class="sc_services_title sc_item_title" id="about-us" style="color: <?= $secondarycolor2; ?>;">Why We Are Different...</h2>
+                                <h2 class="sc_services_title sc_item_title" id="about-us" style="color: <?= $secondarycolor; ?>;">Why We Are Different...</h2>
                                 <div class="sc_services_descr sc_item_descr">
                                     Businesses need just more than money which is why our investment and support approach is well-grounded <br>
                                     to help cater across all facets of the business.
@@ -55,7 +55,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_04.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Domain Transformation</a></h4>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor; ?>;">Domain Transformation</a></h4>
                                                 <span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Introduce new technologies with the ability to redefine products and services and foster opportunities for non-traditional competitors</p>
@@ -70,7 +70,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_05.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Business Model Transformation</a></h4>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor; ?>;">Business Model Transformation</a></h4>
                                                 <span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Reinventing and adding to their current model for success and achieving a renovation that leads to significant new opportunities for growth</p>
@@ -85,7 +85,7 @@ require 'header.php';
                                                 <a href="single-service.html"><img alt="" class="services-post-image" src="images/service_06.png"></a>
                                             </div>
                                             <div class="sc_services_item_content">
-                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor3; ?>;">Cultural Transformation</a></h4><span class="sc_services_item_subtitle">Market-leading experience and services</span>
+                                                <h4 class="sc_services_item_title"><a href="single-service.html"  style="color: <?= $secondarycolor; ?>;">Cultural Transformation</a></h4><span class="sc_services_item_subtitle">Market-leading experience and services</span>
                                                 <div class="sc_services_item_description">
                                                     <p>Aligning digital transformation efforts with organizational internal values and behaviors</p>
                                                 </div>
@@ -280,7 +280,7 @@ require 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="column-1_4 custom_bg_3">
+                        <div class="column-1_4" style="background: <?= $primarycolor ?>">
                             <div class="sc_empty_space" data-height="35px"></div>
                             <div class="sc_section margin_top_small margin_right_small margin_bottom_large margin_left_small aligncenter">
                                 <div class="sc_section_inner">
@@ -297,7 +297,7 @@ require 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="column-1_4 custom_bg_4">
+                        <div class="column-1_4" style="background: <?= $secondarycolor3 ?>">
                             <div class="sc_empty_space" data-height="35px"></div>
                             <div class="sc_section margin_top_small margin_right_small margin_bottom_large margin_left_small aligncenter">
                                 <div class="sc_section_inner">
@@ -314,7 +314,7 @@ require 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="column-1_4 custom_bg_5">
+                        <div class="column-1_4" style="background: <?= $secondarycolor ?>">
                             <div class="sc_empty_space" data-height="35px"></div>
                             <div class="sc_section margin_top_small margin_right_small margin_bottom_large margin_left_small aligncenter">
                                 <div class="sc_section_inner">
