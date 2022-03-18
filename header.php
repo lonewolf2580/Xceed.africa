@@ -23,10 +23,10 @@ $phone = "+33753047358";
 $address = "23 Rue Louis Jasseron, Lyon, France 69003";
 $email = "babajide@xceed.africa";
 $googleform = "#";
-$primarycolor = "#2B389D";
-$secondarycolor = "#138DB8";
+$primarycolor = "#2B389D"; //Deep Blue
+$secondarycolor = "#138DB8"; //Light Bue
 $secondarycolor2 = "#910F70";
-$secondarycolor3 = "#F0245C";
+$secondarycolor3 = "#F0245C"; //Red
 
 ?>
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ $secondarycolor3 = "#F0245C";
                                 </div>
                                 <ul class="menu_user_nav" id="menu_user">
                                     <li class="menu_user_register_login">
-                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $secondarycolor; ?>;">Apply</a> <a> </a>
+                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a> <a> </a>
                                     </li>
                                     
                                 </ul>
