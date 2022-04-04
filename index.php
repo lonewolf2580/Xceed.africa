@@ -15,7 +15,7 @@ require 'header.php';
                                     Xceed Africa provides strategic funding to early-stage African startups solving hard problems <br> and building high growth businesses in $Billion markets.
                                 </div>
                                 <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-1-layer-3">
-                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a>&nbsp;&nbsp;
+                                    <a class="sc_button sc_button_style_filled sc_button_size_large" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a>&nbsp;&nbsp;
                                     <!-- <a class="sc_button sc_button_style_filled2 sc_button_size_medium light_color" href="#">Purchase</a> -->
                                 </div>
                             </li>
@@ -28,7 +28,7 @@ require 'header.php';
                                     Xceed Africa facilitates the digital transformation of African businesses and helps them <br> adopt digital technology to improve efficiency, value, and innovation.
                                 </div>
                                 <div class="tp-caption trx-no-css tp-resizeme" data-end="8700" data-height="['auto']" data-hoffset="" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="900" data-transform_idle="o:1;" data-transform_in="opacity:0;s:800;e:Power2.easeInOut;" data-transform_out="opacity:0;s:600;" data-voffset="137" data-width="['auto']" data-x="center" data-y="center" id="slide-2-layer-3">
-                                    <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a>
+                                    <a class="sc_button sc_button_style_filled sc_button_size_large" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a>
                                 </div>
                             </li>
                             
@@ -183,15 +183,15 @@ require 'header.php';
                                 <div class="sc_section margin_top_huge margin_bottom_huge aligncenter" data-animation="animated fadeIn normal">
                                     <div class="sc_section_inner">
                                         <div class="sc_section_content_wrap">
-                                            <div class="sc_empty_space" data-height="3px"></div>
-                                            <h2 class="sc_title sc_title_regular text_align_center custom_cl_7 margin_top_medium margin_bottom_tiny-"><b style="color: <?= $primarycolor; ?>;">Our Numbers</b></h2>
+                                            <!-- <div class="sc_empty_space" data-height="3px"></div> -->
+                                            <h2 class="sc_title sc_title_regular text_align_center custom_cl_7 margin_bottom_tiny-" style="margin-top: -40px;"><b style="color: <?= $primarycolor; ?>;">Our Numbers</b></h2>
                                             <div class="sc_skills sc_skills_counter margin_top_tiny margin_bottom_medium" data-caption="Skills" data-type="counter">
                                                 <!-- <h2 class="sc_skills_title sc_item_title">Proffesional solutions for your business.</h2>
                                                 <div class="sc_skills_descr sc_item_descr">
                                                     We provide premium customer support and offer affiliate programs.
                                                 </div> -->
                                                 <div class="columns_wrap sc_skills_columns">
-                                                    <div class="sc_skills_column column-1_3">
+                                                    <div class="sc_skills_column column-1_3" style="margin-top: 25px;">
                                                         <div class="sc_skills_item sc_skills_style_2">
                                                             <div class="sc_skills_count">
                                                                 <div style="font-size: 30px;">
@@ -210,7 +210,7 @@ require 'header.php';
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="sc_skills_column column-1_3">
+                                                    <div class="sc_skills_column column-1_3" style="margin-top: 25px;">
                                                         <div class="sc_skills_item sc_skills_style_2">
                                                             <div class="sc_skills_count">
                                                                 <div style="font-size: 30px;">
@@ -229,7 +229,7 @@ require 'header.php';
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="sc_skills_column column-1_3">
+                                                    <div class="sc_skills_column column-1_3" style="margin-top: 25px;">
                                                         <div class="sc_skills_item sc_skills_style_2">
                                                             <div class="sc_skills_count">
                                                                 <div style="font-size: 30px;">
@@ -308,7 +308,7 @@ require 'header.php';
                                         </figure>
                                         <div class="sc_empty_space" data-height="0.7em"></div>
                                         <h4 class="sc_title sc_title_regular margin_top_tiny margin_bottom_tiny custom_cl_4">Incubation & Acceleration</h4>
-                                        <h6 class="sc_custom_heading style_1 custom_cl_5">We provide advice, guidance, and various forms of support for businesses in the startup phase.</span>
+                                        <h6 class="sc_custom_heading style_1 custom_cl_5"><span style="color: #fff;">We provide advice, guidance, and various forms of support for businesses in the startup phase.</span>
                                         <!-- <div class="sc_empty_space" data-height="1.1em"></div> -->
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@ require 'header.php';
                                         </figure>
                                         <div class="sc_empty_space" data-height="0.7em"></div>
                                         <h4 class="sc_title sc_title_regular margin_top_tiny margin_bottom_tiny custom_cl_4">Market Research</h4>
-                                        <h6 class="sc_custom_heading style_1 custom_cl_5">We gather information about African businesses and their target markets and customers.</span>
+                                        <h6 class="sc_custom_heading style_1 custom_cl_5"><span style="color: #fff;">We gather information about African businesses and their target markets and customers.</span>
                                         <!-- <div class="sc_empty_space" data-height="1.1em"></div> -->
                                     </div>
                                 </div>

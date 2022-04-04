@@ -77,7 +77,7 @@ $secondarycolor3 = "#F0245C"; //Red
                                 </div>
                                 <ul class="menu_user_nav" id="menu_user">
                                     <li class="menu_user_register_login">
-                                        <a class="sc_button sc_button_style_filled sc_button_size_medium" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a> <a> </a>
+                                        <a class="sc_button sc_button_style_filled sc_button_size_large" href="<?= $googleform; ?>" style="background: <?= $primarycolor; ?>;">Apply</a> <a> </a>
                                     </li>
                                     
                                 </ul>
