@@ -55,7 +55,7 @@ $secondarycolor3 = "#F0245C"; //Red
     <link href="images/favi.png" rel="icon" sizes="192x192">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <style>
-        *{
+        body {
             font-family: 'Montserrat';font-size: 22px;
         }
     </style>
