@@ -53,6 +53,12 @@ $secondarycolor3 = "#F0245C"; //Red
     <link href='js/vendor/swiper/swiper.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href='css/responsive.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href="images/favi.png" rel="icon" sizes="192x192">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        *{
+            font-family: 'Montserrat';font-size: 22px;
+        }
+    </style>
 </head>
 <body class="body_style_wide body_filled scheme_original top_panel_show top_panel_over sidebar_hide sidebar_outer_show sidebar_outer_yes top_panel_fixed">
     <div id="page_preloader"></div>
