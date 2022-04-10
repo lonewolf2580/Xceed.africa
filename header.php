@@ -90,18 +90,18 @@ $secondarycolor3 = "#F0245C"; //Red
                             </div>
                         </div>
                     </div>
-                    <div class="top_panel_middle">
+                    <div class="top_panel_top">
                         <div class="content_wrap">
                             <div class="contact_logo">
                                 <div class="logo">
-                                    <a href="index.html"><img alt="" class="logo_main" src="images/logo_dark.png"> <img alt="" class="logo_fixed" src="images/logo.png"></a>
+                                    <a href="index"><img alt="" class="logo_main" src="images/logo_dark.png"> <img alt="" class="logo_fixed" src="images/logo.png"></a>
                                 </div>
                             </div>
                             <div class="menu_main_wrap">
                                 <nav class="menu_main_nav_area menu_hover_fade">
                                     <ul class="menu_main_nav" id="menu_main">
                                         <!-- <li class="menu-item current-menu-ancestor current-menu-parent">
-                                            <a href="index.html"><span>Home</span></a>
+                                            <a href="index"><span>Home</span></a>
                                         </li> -->
                                         <li class="menu-item">
                                             <a href="#our-team"><span>Team</span></a>
@@ -181,7 +181,7 @@ $secondarycolor3 = "#F0245C"; //Red
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="index.html"><img alt="" class="logo_main" src="images/logo_dark.png"></a>
+                        <a href="index"><img alt="" class="logo_main" src="images/logo_dark.png"></a>
                     </div>
                     
                 </div>
@@ -193,7 +193,7 @@ $secondarycolor3 = "#F0245C"; //Red
                         <nav class="menu_main_nav_area">
                             <ul class="menu_main_nav" id="menu_mobile">
                                 <!-- <li class="menu-item current-menu-ancestor current-menu-parent">
-                                    <a href="index.html"><span>Home</span></a>
+                                    <a href="index"><span>Home</span></a>
                                 </li> -->
                                 <li class="menu-item">
                                     <a href="#our-team"><span>Team</span></a>
