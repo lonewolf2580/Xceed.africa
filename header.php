@@ -52,11 +52,11 @@ $secondarycolor3 = "#F0245C"; //Red
     <link href='js/vendor/magnific-popup/magnific-popup.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href='js/vendor/swiper/swiper.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
     <link href='css/responsive.css' media='all' property="stylesheet" rel='stylesheet' type='text/css'>
-    <link href="images/favi.png" rel="icon" sizes="192x192">
+    <link href="images/x-logo.jpg" rel="icon" sizes="192x192">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <style>
         body {
-            font-family: 'Montserrat';font-size: 22px;
+            font-family: 'Montserrat';
         }
     </style>
 </head>
@@ -90,11 +90,11 @@ $secondarycolor3 = "#F0245C"; //Red
                             </div>
                         </div>
                     </div>
-                    <div class="top_panel_top">
+                    <div class="top_panel_medium">
                         <div class="content_wrap">
                             <div class="contact_logo">
                                 <div class="logo">
-                                    <a href="index"><img alt="" class="logo_main" src="images/logo_dark.png"> <img alt="" class="logo_fixed" src="images/logo.png"></a>
+                                    <a href="index"><img alt="" class="logo_main" src="images/x-logo2.png" style="width: 134px; height: 35px;"> <img alt="" class="logo_fixed" src="images/x-logo2.png" style="width: 134px; height: 35px;"></a>
                                 </div>
                             </div>
                             <div class="menu_main_wrap">
@@ -181,7 +181,7 @@ $secondarycolor3 = "#F0245C"; //Red
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="index"><img alt="" class="logo_main" src="images/logo_dark.png"></a>
+                        <a href="index"><img alt="" class="logo_main" src="images/x-logo2.png"></a>
                     </div>
                     
                 </div>
